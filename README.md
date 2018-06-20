@@ -1,3 +1,7 @@
+# jenkins-server
+
+** A Jenkins CICD server deployed using AWS Elastic Beanstalk and Docker.**
+
 ## Setup of AWS Elastic Beanstalk instance
 
 1. Install AWS EB CLI
