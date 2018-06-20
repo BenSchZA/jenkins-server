@@ -1,8 +1,11 @@
 jenkins:
-    build: '.'
+    image:
+     jenkins/jenkins:lts
     volumes:
      - jenkins_home:/var/jenkins_home
      - /var/run/docker.sock:/var/run/docker.sock
+     - /usr/bin/docker-compose:/usr/bin/docker-compose
+     - /usr/bin/docker:/usr/bin/docker
     ports:
      - 8080:8080
      - 50000:50000
