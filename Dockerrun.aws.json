@@ -1,0 +1,21 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "jenkins/jenkins:lts",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8080"
+    },
+    {
+      "ContainerPort": "50000"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "jenkins_home",
+      "ContainerDirectory": "/var/jenkins_home"
+    }
+  ]
+}
