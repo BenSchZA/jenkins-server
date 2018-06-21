@@ -1,4 +1,5 @@
 jenkins:
+    privileged: true
     build: '.'
     volumes:
      - jenkins_home:/var/jenkins_home
