@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "jenkins/jenkins:lts",
+    "Name": "jenkinsci/blueocean",
     "Update": "true"
   },
   "Ports": [
