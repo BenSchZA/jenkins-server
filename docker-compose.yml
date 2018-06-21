@@ -7,7 +7,5 @@ jenkins:
      - 8080:8080
      - 50000:50000
     expose:
-     - 3000
      - 8080
-# volumes:
-#   jenkins_home:
+     - 3000
